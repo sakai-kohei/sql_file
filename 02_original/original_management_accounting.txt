@@ -1,0 +1,7 @@
+USE test;
+CREATE TABLE original_management_accounting (accountong_year CHAR(4), accountong_month CHAR(2), dep_cc_cd CHAR(6), sales INT, sales_package INT, sales_human_service INT, sales_others INT, external_cost INT, outsourcing_cost INT, outsourcing_cost_package INT, outsourcing_cost_human_service INT, outsourcing_cost_others INT, purchase_cost INT, purchase_cost_package INT, purchase_cost_human_service INT, purchase_cost_others INT, other_cost INT, other_cost_package INT, other_cost_human_service INT, other_cost_others INT, marginal_profit INT, marginal_profit_rate FLOAT, marginal_profit_package INT, marginal_profit_rate_package FLOAT, marginal_profit_human_service INT, marginal_profit_rate_human_service FLOAT, marginal_profit_others INT, marginal_profit_rate_others FLOAT, external_costs INT, support_cost INT, rd_cost INT, net_revenue INT, net_revenue_rate FLOAT, total_labor_cost INT, operating_expense INT, mgt_operating_expense INT, common_operating_expense INT, work_in_process_etc INT, personhour_transfer INT, work_in_process INT, sw_capitalization INT, cross_selling_transfer INT, profit_cost_transfer INT, contribution_income INT, cost_burden INT, com_allocation INT, cost_dep_person INT, cost_dep_sales INT, dep_transfer INT, loaaned_staff_diff INT, dep_operating_profit INT, exchange_diff INT, operating_income INT, operating_income_rate FLOAT, employees INT);
+SET GLOBAL local_infile=on;
+LOAD DATA LOCAL INFILE 'E:\\original_management_accounting.csv'
+INTO TABLE original_management_accounting
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\r\n';

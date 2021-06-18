@@ -1,0 +1,7 @@
+USE test;
+CREATE TABLE original_finacial_accounting (accountong_year CHAR(4), accountong_month CHAR(2), dep_cc_cd CHAR(6), sales INT, sales_package INT, sales_human_service INT, sales_others INT, cost_of_sales INT, external_cost INT, external_cost_package INT, external_cost_human_service INT, external_cost_others INT, internal_cost INT, internal_cost_package INT, internal_cost_human_service INT, internal_cost_others INT, gross_profit INT, gross_profit_rate FLOAT, gross_profit_package INT, gross_profit_rate_package FLOAT, gross_profit_human_service INT, gross_profit_rate_human_service FLOAT, gross_profit_others INT, gross_profit_rate_others FLOAT, selling_general_and_administrative_expenses INT, support_cost INT, sales_support_cost INT, self_support INT, rd_cost INT, labor_cost INT, operating_expenses INT, mgt_operating_expenses INT, common_expenses INT, entertainment_expenses INT, profit_cost_transfer INT, costdep_burden_expenses INT, dep_transfer INT, other_cost_burden INT, transfer_to_other_accounts INT, operating_income INT, rd_including_capitalization INT);
+SET GLOBAL local_infile=on;
+LOAD DATA LOCAL INFILE 'E:\\original_finacial_accounting.csv'
+INTO TABLE original_finacial_accounting
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\r\n';

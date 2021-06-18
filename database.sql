@@ -1,0 +1,2 @@
+DROP DATABASE keiki00e;
+CREATE DATABASE keiki00e;
