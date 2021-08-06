@@ -1,3 +1,4 @@
+USE keiki00e;
 SET GLOBAL local_infile=on;
 LOAD DATA LOCAL INFILE 'E:\\loadfile\\allocation_group_master.csv'
 INTO TABLE allocation_group_master
