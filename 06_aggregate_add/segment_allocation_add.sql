@@ -1,7 +1,7 @@
 USE keiki00e;
 SET GLOBAL local_infile=on;
-LOAD DATA LOCAL INFILE 'E:\\loadfile\\allocation_group_master.csv'
-INTO TABLE allocation_group_master
+LOAD DATA LOCAL INFILE 'E:\\loadfile\\segment_allocation.csv'
+INTO TABLE segment_allocation
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES;
