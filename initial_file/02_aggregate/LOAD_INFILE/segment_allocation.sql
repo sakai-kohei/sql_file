@@ -1,8 +1,7 @@
 USE keiki00e;
-CREATE TABLE IF NOT EXISTS segment_allocation ();
 
 SET GLOBAL local_infile=on;
-LOAD DATA LOCAL INFILE 'E:\\loadfile\\segment_allocation.csv'
+LOAD DATA LOCAL INFILE 'E:\\loadfile\\initial_file\\02_aggregate\\segment_allocation.csv'
 INTO TABLE segment_allocation
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\r\n'
