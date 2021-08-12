@@ -1,2 +1,2 @@
-drop database keiki00e;
-create database keiki00e;
+USE keiki00e;
+drop table allocation_budjet_master; 
