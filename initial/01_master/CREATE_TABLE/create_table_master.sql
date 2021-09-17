@@ -7,3 +7,4 @@ CREATE TABLE IF NOT EXISTS batch_code_master (batch_code INT, batch VARCHAR(30))
 CREATE TABLE IF NOT EXISTS service_code_master (service_code CHAR(3), service VARCHAR(40), segment_abbreviated VARCHAR(4));
 CREATE TABLE IF NOT EXISTS sl_code_master (sl_code CHAR(3), sl_no VARCHAR(2), sl VARCHAR(22), sl_class VARCHAR(8));
 CREATE TABLE IF NOT EXISTS work_code_master (work_code VARCHAR(3), works VARCHAR(18));
+CREATE TABLE IF NOT EXISTS zensya_budjet_master (budjet_year CHAR(5), department_cc_code CHAR(6),budjet_month VARCHAR(3), yosan_category VARCHAR(9), yosan DECIMAL(12,2));
