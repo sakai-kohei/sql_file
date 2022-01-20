@@ -1,7 +1,7 @@
 USE keiki00e;
 
 SET GLOBAL local_infile=on;
-LOAD DATA LOCAL INFILE 'F:\\02_loadfile\\operational\\03_original\\org_analysis_detail\\org_anken_analysis_2110-2112.csv'
+LOAD DATA LOCAL INFILE 'F:\\02_loadfile\\operational\\03_original\\org_analysis_detail\\org_analysis_detail_2110-2112.csv'
 INTO TABLE org_analysis_detail
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\r\n'
