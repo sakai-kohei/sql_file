@@ -1,4 +1,4 @@
-USE keiki00h;
+USE keiki00e;
 
 SET GLOBAL local_infile=on;
 LOAD DATA LOCAL INFILE 'F:\\02_loadfile\\initial\\01_master\\mst_ao_solution_code.csv'
