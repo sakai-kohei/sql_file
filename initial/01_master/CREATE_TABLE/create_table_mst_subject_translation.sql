@@ -1,4 +1,4 @@
-USE keiki00e;
+USE keiki00h;
 
 CREATE TABLE IF NOT EXISTS mst_subject_translation (
 ebs_subject_code CHAR(5), 
