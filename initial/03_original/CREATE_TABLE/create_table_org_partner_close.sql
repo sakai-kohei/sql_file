@@ -1,4 +1,4 @@
-USE keiki00e;
+USE keiki00h;
 
 CREATE TABLE IF NOT EXISTS org_partner_close(
 temporary_order_flag VARCHAR(5), 

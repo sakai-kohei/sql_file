@@ -1,4 +1,4 @@
-USE keiki00e;
+USE keiki00h;
 
 CREATE TABLE IF NOT EXISTS org_payment_detail(
 voucher_no VARCHAR(16), 
