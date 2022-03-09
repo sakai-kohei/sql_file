@@ -1,0 +1,33 @@
+USE keiki00e;
+
+CREATE TABLE IF NOT EXISTS org_pjt_transfer (
+accounting_category VARCHAR(3), 
+accounting_category_name VARCHAR(6), 
+accounting_date date, 
+occurrence_date date, 
+subject_name VARCHAR(13), 
+transfering_cc_category VARCHAR(6), 
+transfering_cc_cd CHAR(6), 
+transfering_cc_cd_name VARCHAR(9), 
+transfering_detail_pjt_no CHAR(12), 
+transfering_detail_pjt_name VARCHAR(100), 
+transfering_detail_pjt_category CHAR(3), 
+transfering_detail_pjt_cc_cd CHAR(6), 
+transfering_detail_pjt_cc_name VARCHAR(9), 
+transferred_cc_category VARCHAR(6), 
+transferred_cc_cd CHAR(6), 
+transferred_cc_cd_name VARCHAR(9), 
+transferred_detail_pjt_no CHAR(12), 
+transferred_detail_pjt_name VARCHAR(100), 
+transferred_detail_pjt_category CHAR(3), 
+transferred_detail_pjt_cc_cd CHAR(6), 
+transferred_detail_pjt_cc_name VARCHAR(9), 
+person_hour FLOAT, 
+internal_genka_planned INT, 
+internal_genka_unplanned INT, 
+net_internal_genka INT, 
+anken_no CHAR(15), 
+detail_anken_no VARCHAR(4), 
+sl_code CHAR(3), 
+service_code CHAR(3)
+) DEFAULT CHARSET=utf8;
