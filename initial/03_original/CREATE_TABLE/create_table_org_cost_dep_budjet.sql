@@ -1,4 +1,4 @@
-USE keiki00e;
+USE keiki00h;
 
 CREATE TABLE IF NOT EXISTS org_cost_dep_budjet(
 budjet_date CHAR(6), 
