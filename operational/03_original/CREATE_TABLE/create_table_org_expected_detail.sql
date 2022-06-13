@@ -116,5 +116,6 @@ net_amount_deal_title VARCHAR(4),
 cloud_category_code VARCHAR(3), 
 cloud_category VARCHAR(27), 
 cloud_service_code VARCHAR(5), 
-cloud_service VARCHAR(21)
+cloud_service VARCHAR(21), 
+expected_date date
 ) DEFAULT CHARSET=utf8;
